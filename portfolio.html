@@ -5,7 +5,8 @@
     <title>Portfolio</title> 
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> 
-</head> 
+    <link rel="stylesheet" href="./assets/style.css">
+  </head> 
 <body> 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">Suzanne Jucaitis</a>
@@ -24,16 +25,47 @@
               <a class="nav-link" href="portfolio.html"> Portfolio <span class="sr-only">(current)</span></a>
             </li>
             <a class ="btn btn-outline-info" href="https://www.linkedin.com/in/suzanne-foley-jucaitis-56b0705" role="button">LinkedIn</a>
+            
           </ul>
         </div>
       </nav>
-      <div class="jumbotron">
-        <h1 class="display-4">Coming Soon!</h1>
-        <p class="lead">Please check back for projects currently in development.</p>
-        <hr class="my-4">
-        <p>Until then, visit our partner, The Yachtshund for bad sailing puns and solid investiment tips.</p>
-        <a class="btn btn-dark btn-lg" href="https://www.instagram.com/theyachtshund/" target="_blank" role="button">The Yachtshund</a>
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Projects</h1>
+          <p class="lead">Please check back often for more projects currently in development.</p>
+        </div>
       </div>
+      <main class="container">
+        <div class="row">
+          <div class="col-4">
+            <img class="img-fluid" src="./assets/TitleDive.jpg" alt = "Screenshot of Title Dive Site"/>
+            <hr class="my-4">
+          </div>
+          <div class="col-8">
+            <a href="https://sjucaitis.github.io/CWRUProject01/"> 
+              <h2>Title Dive</h2>
+            </a>
+        <p>TItle Dive is a responsive web application providing specific movie and television show recommendations based on user title input. Users receive title recommendations, together with viewing data and movie trailers to ensure viewer compatibility. This application was built by a team using HTML5, CSS3, JavaScript, Bootstrap, jQuery, AJAX and APIs.</p>
+        <a href="https://github.com/sjucaitis/CWRUProject01">
+          <p>See the GitHub Repository for this application.</p></a>
+        </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <img class="img-fluid" src="./assets/PasswordGen.jpg" alt = "Screenshot of Random Password Generator"/>
+          </div>
+          <div class="col-8">
+            <a href="https://sjucaitis.github.io/RandomPasswordGenerator/"> 
+              <h2>Random Password Generator</h2>
+            </a>
+        <p>This responsive web application will create random passwords between 8 and 128 characters depending on user's desired inputs.</p>
+        <a href="https://github.com/sjucaitis/RandomPasswordGenerator">
+          <p>See the GitHub Repository for this application.</p>
+        </a>   
+        
+      </div>
+        </div>
+      </main>
       <footer id="sticky-footer" class="py-4 bg-light text-dark-50">
         <div class="container text-center">
           <small>Suzanne Foley Jucaitis // </small>
