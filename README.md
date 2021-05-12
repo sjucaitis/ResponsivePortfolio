@@ -16,6 +16,8 @@ Developer card links to GitHub.
 
 Bootstrap footer provides information required by the Ohio Rules of Professional Conduct for online attorney profiles.
 
-## Link
+## Links
 
 Please view this responsive web portfolio at https://sjucaitis.github.io/ResponsivePortfolio/index.html
+
+This portfolio is being rebuilt using React. The deployed portfolio may be found at https://sfjportfolio.herokuapp.com/.
