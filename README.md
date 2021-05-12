@@ -1,17 +1,21 @@
-Index: 
+# Responsive Portfolio
 
-    Bootstrap navbar that directs user to Home, Contact, and Portfolio. Button in NavBar directs user to LinkedIn page in new tab.
+This responsive design portfolio page uses HTML5, CSS, and Bootstrap elements to render content well on a variety of devices and window or screen sizes. This page features a responsive layout and images utilizing Bootstrap's grid system of containers, rows, and columns.
 
-    Three cards in size 4 columns below image.
+## Navbar
 
-    Center card links to GitHub.
+Bootstrap navbar directs user to Home, Contact, Resume, and Portfolio. Button in NavBar directs user to LinkedIn page in new tab. Navbar is consistent across all site pages, and all links are functional.
 
-    Sticky Footer contains information mandated by the Ohio Supreme Court for attorney websites
+## Cards
 
-Contact:
+Three bootstrap cards provides developer background information.
 
-    Uses bootstrap form belwo image.
+Developer card links to GitHub.
 
-Profile:
+## Footer
 
-    More content coming soon. Button link to silly instagram account.
+Bootstrap footer provides information required by the Ohio Rules of Professional Conduct for online attorney profiles.
+
+## Link
+
+Please view this responsive web portfolio at https://sjucaitis.github.io/ResponsivePortfolio/index.html
